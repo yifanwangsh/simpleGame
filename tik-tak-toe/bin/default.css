@@ -1,0 +1,71 @@
+@charset "ISO-8859-1";
+
+table {
+	 border-collapse: collapse;
+	 margin-left: 155px;
+	 margin-top: 155px;
+	 table-layout: fixed;
+}
+
+td, tr {
+	border: 1px solid black;
+ 	height: 100px;
+	width: 100px; 
+	text-align: center;
+	vertical-align: middle;
+	font-family: "Comic Sans MS", cursive;
+	font-size: 70px;
+	cursor: pointer;
+}
+
+#c1 {
+	border-left-color: transparent;
+	border-top-color: transparent
+}
+
+#c2 {
+	border-top-color: transparent
+}
+
+#c3 {
+	border-top-color: transparent;
+	border-right-color: transparent
+}
+
+#c4 {
+	border-left-color: transparent;
+}
+
+#c6{
+	border-right-color: transparent
+}
+
+#c7 {
+	border-left-color: transparent;
+	border-bottom-color: transparent
+}
+
+#c8 {
+	border-bottom-color: transparent
+}
+
+#c9 {
+	border-bottom-color: transparent;
+	border-right-color: transparent
+}
+
+.gameOver {
+	display: none;
+	width: 200px;
+	top: 250px;
+	background-color: rgba(123, 145, 45, 0.6);
+	position: absolute;
+	left: 50%;
+	margin-left: -100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	border-radius: 10px;
+	color: white;
+	font-size: 2em
+}
